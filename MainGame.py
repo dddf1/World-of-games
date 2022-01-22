@@ -1,4 +1,5 @@
 from Live import load_game, welcome
 
-print("slave2 branch"
+print(welcome(input("Enter player name : ")))
 load_game()
+
