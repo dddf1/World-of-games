@@ -1,6 +1,6 @@
-import MemoryGame
-import GuessGame
-import CurrencyRouletteGame
+import games/MemoryGame
+import games/GuessGame
+import games/CurrencyRouletteGame
 
 
 def welcome(name):
