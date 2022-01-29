@@ -13,6 +13,7 @@ def welcome(name):
 
 
 def load_game():
+    number_of_games = 3
     try:
         main_menu = """
     Please choose a game to play:
@@ -23,7 +24,7 @@ def load_game():
         difficulty_level_msg = "Please choose game difficulty from 1 to 5 : "
         selected_game = int(input(main_menu))
 
-        while selected_game < 1 or selected_game > 3:
+        while selected_game < 1 or selected_game > number_of_games:
             print("Something went wrong. Please chose 1-3")
             selected_game = int(input())
 
