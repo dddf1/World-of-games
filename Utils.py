@@ -1,7 +1,7 @@
 import os
 
-SCORES_FILE_NAME = open("/Users/Rafi/PycharmProjects/WorldOfGames/World-of-games/Scores.txt", "w", encoding="utf-8")
-BAD_RETURN_CODE = 400
+SCORES_FILE_NAME = "/World-of-games/files/Scores.txt"
+BAD_RETURN_CODE = 800
 
 
 def screen_cleaner():
