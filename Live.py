@@ -1,6 +1,10 @@
-import games/MemoryGame
-import games/GuessGame
-import games/CurrencyRouletteGame
+import sys
+
+sys.path.append('/Users/Rafi/PycharmProjects/WorldOfGames/World-of-games/games')
+
+import MemoryGame
+import GuessGame
+import CurrencyRouletteGame
 
 
 def welcome(name):
@@ -39,4 +43,3 @@ def load_game():
     except ValueError:
         print("No.. Please enter a number")
         load_game()
-
